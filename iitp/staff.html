@@ -1,0 +1,95 @@
+<HTML>
+
+<HEAD>
+<TITLE>---::: Student Information System:::---   </TITLE>
+<STYLE  TYPE="text/css">
+
+A {font-family: Verdana, Arial, Helvetica, sans-serif, "MS sans serif";font-size: 14px;line-height: 13px;text-decoration: none;font-weight: bold;}
+A:hover
+{color:#6666CC;text-decoration:none;}
+h1 {font-family: Georgia,Verdana, Arial, Helvetica, sans-serif, "MS sans serif";font-size: 24px;line-height: 140%;text-decoration: none;color: #000000;font-weight: bold;}
+h2 {font-family: Georgia,Verdana, Arial, Helvetica, sans-serif, "MS sans serif";font-size: 18px;line-height: 130%;text-decoration: none;color: #000000;font-weight: bold;}
+.dark {font-family: Verdana, Arial, Helvetica, sans-serif, "MS sans serif";font-size: 11px;line-height: 13px;text-decoration: none;color: #000099;font-weight: bold;}
+.para {font-family: Verdana, Arial, Helvetica, sans-serif, "MS sans serif";font-size: 11px;line-height: 13px;text-decoration: none;color: #787878;font-weight: bold;}
+.big {font-family: Georgia,Verdana, Arial, Helvetica, sans-serif, "MS sans serif";font-size: 20px;line-height: 100%;text-decoration: none;color: Crimson�;font-weight: bold;}
+
+</STYLE>
+<script type='text/javascript' src='script/var.js'></script>
+<script type='text/javascript' src='script/status.js'></script>
+<script type='text/javascript' src='script/load.js'></script>
+<script type='text/javascript' src='script/verify_gen_only.js'></script>
+
+
+</HEAD>
+
+
+<BODY onLoad="load();">
+
+<!--<script type='text/javascript' src='script/checkcaps.js'></script>-->
+
+<table height = "100%" width="100%" cellspacing="0" cellpadding="0">
+<tr height = "15%"><td>
+<table  width="100%" cellspacing="0" cellpadding="0" >
+	<tr ><td><tr> <td align="center"><h1><font color = DarkBlue>Indian Institute of Technology Patna</h1></td> </tr>
+<tr> <td align="center"><h2><font color = DarkBlue>Student Stipend System</h2></td> </tr>
+ </td></tr>
+</table>
+</td></tr>
+<tr height = "5%"><td>
+<table align = "center" border=0 cellspacing=0 cellpadding=0>
+<tr><td> &nbsp;</td></tr>
+</table>
+</td></tr>
+<form method="POST" action="/student/login_check.asp" target="_top" name="form1" onsubmit="return verify(this.form)">
+<tr height = "24%"><td>
+<table align="center" width="20%" cellspacing="0" cellpadding="0" border = "0"><tr><td>
+<table align="center">
+<tr bgcolor=lightblue><td align="center" class=text1 colspan=2><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="+1">Staff Login</font></b></td></tr>
+<tr><td align=center colspan=2> &nbsp; </td></tr>
+<tr><td align="right" valign="top" class=text1 ><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Staff Code</b></font></td>
+<td class="dark"><font face=verdana,sans-serif size=1><input type="Email" name="email_id" value="" size=15 maxlength="8" style="width:150px; font-family:Verdana,Sans-serif; font-size:10px;" alt ="Id" title = "Type your email_id"> </font>
+<br></td></tr>
+<tr><td align="right" class=text1 height=25><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Password </b></font></td>
+<td> <font face=verdana,sans-serif size=1><input type="password" name="user_passwd" size=15 maxlength="8" onKeyPress="checkCapsLock( event )" style="width:150px; font-family:Verdana,Sans-serif; font-size:10px;" alt ="Id" title = "Type your password"></font> </td></tr>
+<tr><td align=center colspan=2> &nbsp; </td></tr>
+<tr><td align=center colspan=2><input type=submit value="Log in" alt ="Id" title = "Login"></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+</form>
+<tr height = "20%"><td>
+<table align = "center" border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td  align=center><font face="Verdana" size="+1"><a href="/student/s_regis_new_db.asp" alt ="Id" title = "Sign Up">Sign Up </a></font></td>
+<td width=30>&nbsp; &nbsp;| &nbsp;</td>
+<td align=center><font face="Verdana" size="+1"><a href="/student/forget.html" alt ="Id" title = "Retrieve your Password">Forgot Password</a></td>
+</tr>
+<tr><td> &nbsp;</td></tr>
+</table>
+</td></tr>
+<tr height = "6%"><td>
+<table align = "center" border=0 cellspacing=0 cellpadding=0>
+<tr><td align=center><a href="home.html" alt ="Id" title = "Back to Home"><font size=5 color =seagreen  face="garmond"><b><p align="center"><i>Home</i></b></font></a>
+</table>
+</td></tr>
+<tr height = "23%"><td>
+<table align = "center" border=0 cellspacing=0 cellpadding=0>
+<tr><td> &nbsp;</td></tr>
+</table>
+</td></tr>
+<tr height = "7%"><td><TABLE WIDTH="100%" cellspacing="0" cellpadding="0">
+<TR>
+<TD bgcolor=lightgrey class="dark" align="center" height="60" valign="center">
+
+<b>Academic Services<br>Indian Institute of Technology Patna  <BR>
+  <br> Email - feedback@iitp.ac.in</b>
+
+</TD>
+</TR>
+</TABLE>
+ </td></tr>
+</table>
+
+</BODY>
+</HTML>
